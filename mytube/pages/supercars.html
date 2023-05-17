@@ -8,89 +8,134 @@
       content="width=device-width, initial-scale=1.0"
     />
     <title>MyTube - Supercars</title>
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../style.css"
+    />
   </head>
   <body>
     <header>
       <nav>
-        <a href="../index.html">Home</a>
-        <a href="jets.html">Jets</a>
-        <a href="yachts.html">Yachts</a>
-        <a href="">Supercars</a>
-        <a href="../form.html">New Video</a>
+        <span class="logo">
+          <img
+            src="https://i.imgur.com/6nE83O9.png"
+            alt="My Tube"
+          />yTube</span
+        >
+        <span class="links">
+          <a href="../index.html">
+            <i class="fa-solid fa-house"></i> Home</a
+          >
+          <a href="jets.html"
+            ><i class="fa-solid fa-plane-departure"></i>
+            Jets</a
+          >
+          <a href="yachts.html"
+            ><i class="fa-solid fa-sailboat"></i> Yachts</a
+          >
+          <a class="active" href=""
+            ><i class="fa-solid fa-car-burst"></i>
+            Supercars</a
+          >
+          <a class="upload" href="../form.html">
+            <i class="fa-solid fa-upload"></i> Upload
+            Video</a
+          >
+        </span>
       </nav>
     </header>
-    <h1>Supercars</h1>
-    <table>
-      <tr>
-        <td>
-          <iframe
-            width="240"
-            height="150"
-            src="https://www.youtube.com/embed/PkkV1vLHUvQ"
-            frameborder="0"
-          ></iframe>
-          <br />
-          <a href="../videos/chiron.html"> Chiron </a>
-        </td>
-        <td>
-          <iframe
-            width="240"
-            height="150"
-            src="https://www.youtube.com/embed/0iqcHshcQjA"
-            frameborder="0"
-          ></iframe>
-          <br />
-          <a href="../videos/mc20.html"> Maserati MC20 </a>
-        </td>
-        <td>
-          <iframe
-            width="240"
-            height="150"
-            src="https://www.youtube.com/embed/B5aAFZZLO9w"
-            frameborder="0"
-          ></iframe
-          ><br />
-          <a href="../videos/huracan.html">
-            Lamborghini Huracan
-          </a>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <iframe
-            width="240"
-            height="150"
-            src="https://www.youtube.com/embed/aZhqAA9pn-g"
-            frameborder="0"
-          ></iframe>
-          <br />
-          <a href="../videos/nevera.html"> Rimac Nevera </a>
-        </td>
-        <td>
-          <iframe
-            width="240"
-            height="150"
-            src="https://www.youtube.com/embed/b9zmM_aELgw"
-            frameborder="0"
-          ></iframe>
-          <br />
-          <a href="../videos/senna.html"> McLaren Senna </a>
-        </td>
-        <td>
-          <iframe
-            width="240"
-            height="150"
-            src="https://www.youtube.com/embed/oeZVfWLKtqQ"
-            frameborder="0"
-          ></iframe
-          ><br />
-          <a href="../videos/stradale.html">
-            Ferrari SF90 Stradale
-          </a>
-        </td>
-      </tr>
-    </table>
-    <hr style="margin-top: 200px" />
-    <footer>&copy: Copyright</footer>
+    <div class="content">
+      <h1 class="title">Supercars</h1>
+      <table>
+        <tr>
+          <td>
+            <iframe
+              src="https://www.youtube.com/embed/PkkV1vLHUvQ?fs=0&modestbranding=1"
+              frameborder="0"
+            ></iframe>
+            <br />
+            <a href="../videos/chiron.html"> Chiron </a>
+          </td>
+          <td>
+            <iframe
+              src="https://www.youtube.com/embed/0iqcHshcQjA?fs=0&modestbranding=1"
+              frameborder="0"
+            ></iframe>
+            <br />
+            <a href="../videos/mc20.html">
+              Maserati MC20
+            </a>
+          </td>
+          <td>
+            <iframe
+              src="https://www.youtube.com/embed/B5aAFZZLO9w?fs=0&modestbranding=1"
+              frameborder="0"
+            ></iframe
+            ><br />
+            <a href="../videos/huracan.html">
+              Lamborghini Huracan
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <iframe
+              src="https://www.youtube.com/embed/aZhqAA9pn-g?fs=0&modestbranding=1"
+              frameborder="0"
+            ></iframe>
+            <br />
+            <a href="../videos/nevera.html">
+              Rimac Nevera
+            </a>
+          </td>
+          <td>
+            <iframe
+              src="https://www.youtube.com/embed/b9zmM_aELgw?fs=0&modestbranding=1"
+              frameborder="0"
+            ></iframe>
+            <br />
+            <a href="../videos/senna.html">
+              McLaren Senna
+            </a>
+          </td>
+          <td>
+            <iframe
+              src="https://www.youtube.com/embed/oeZVfWLKtqQ?fs=0&modestbranding=1"
+              frameborder="0"
+            ></iframe
+            ><br />
+            <a href="../videos/stradale.html">
+              Ferrari SF90 Stradale
+            </a>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <footer>
+      <div class="footer-content">&copy; Copyright</div>
+    </footer>
   </body>
 </html>

@@ -8,37 +8,108 @@
       content="width=device-width, initial-scale=1.0"
     />
     <title>MyTube - Adastra</title>
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../style.css"
+    />
   </head>
   <body>
     <header>
       <nav>
-        <a href="../index.html">Home</a>
-        <a href="../pages/jets.html">Jets</a>
-        <a href="../pages/yachts.html">Yachts</a>
-        <a href="../pages/supercars.html">Supercars</a>
-        <a href="../form.html">New Video</a>
+        <span class="logo">
+          <img
+            src="https://i.imgur.com/6nE83O9.png"
+            alt="My Tube"
+          />yTube</span
+        >
+        <span class="links">
+          <a href="../index.html">
+            <i class="fa-solid fa-house"></i> Home</a
+          >
+          <a href="../pages/jets.html"
+            ><i class="fa-solid fa-plane-departure"></i>
+            Jets</a
+          >
+          <a href="../pages/yachts.html"
+            ><i class="fa-solid fa-sailboat"></i> Yachts</a
+          >
+          <a href="../pages/supercars.html"
+            ><i class="fa-solid fa-car-burst"></i>
+            Supercars</a
+          >
+          <a class="upload" href="../form.html">
+            <i class="fa-solid fa-upload"></i> Upload
+            Video</a
+          >
+        </span>
       </nav>
     </header>
-    <h1>Adastra</h1>
-    <iframe
-      width="480"
-      height="300"
-      src="https://www.youtube.com/embed/9MUtg3UyV5U"
-      frameborder="0"
-      allowfullscreen
-    ></iframe>
-    <p>
-      The Adastra yacht is a stunning luxury vessel. It
-      boasts futuristic design and cutting-edge technology.
-      With a length of 42.5 meters, it offers ample space
-      and comfort. The yacht is powered by efficient
-      engines, allowing for a range of 4,000 nautical miles.
-      Its lightweight construction enhances speed and fuel
-      efficiency. The Adastra features luxurious interiors
-      and state-of-the-art amenities. It is a remarkable
-      example of maritime engineering and elegance.
-    </p>
-    <hr style="margin-top: 200px" />
-    <footer>&copy: Copyright</footer>
+
+    <div class="single">
+      <iframe
+        src="https://www.youtube.com/embed/9MUtg3UyV5U"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+      <div class="details">
+        <h2>Adastra</h2>
+        <p>
+          The Adastra yacht is a stunning luxury vessel. It
+          boasts futuristic design and cutting-edge
+          technology. With a length of 42.5 meters, it
+          offers ample space and comfort. The yacht is
+          powered by efficient engines, allowing for a range
+          of 4,000 nautical miles. Its lightweight
+          construction enhances speed and fuel efficiency.
+          The Adastra features luxurious interiors and
+          state-of-the-art amenities.
+        </p>
+        <h4>
+          <a href="https://www.facebook.com" target="_blank"
+            ><i class="fa-solid fa-share-nodes"></i>
+            Share</a
+          >
+          <a href="https://www.twitter.com" target="_blank"
+            ><i class="fa-solid fa-message"></i> Feedback</a
+          >
+          <a
+            href="https://www.instagram.com"
+            target="_blank"
+            ><i class="fa-solid fa-download"></i>
+            Download</a
+          >
+          <a href="https://www.linkedin.com" target="_blank"
+            ><i class="fa-solid fa-heart-circle-plus"></i>
+            Save</a
+          >
+        </h4>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-content">&copy; Copyright</div>
+    </footer>
   </body>
 </html>
