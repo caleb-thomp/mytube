@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>MyTube - Add New Video</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="./index.html">Home</a>
+        <a href="pages/jets.html">Jets</a>
+        <a href="pages/yachts.html">Yachts</a>
+        <a href="pages/supercars.html">Supercars</a>
+      </nav>
+    </header>
+    <h1>Add New Video</h1>
+    <form>
+      <label for="title">Video Title</label> <br />
+      <input
+        type="text"
+        id="title"
+        mame="title"
+        placeholder="Input value"
+        size="30"
+        required
+      /><br /><br />
+      <label for="description">Description</label><br />
+      <textarea
+        name="description"
+        rows="6"
+        cols="40"
+        id="description"
+        required
+      ></textarea>
+      <br /><br />
+      <label for="file">Video </label> <br />
+      <input
+        type="file"
+        id="file"
+        mame="file"
+        placeholder="Choose file"
+        size="30"
+        required
+      /><br /><br />
+      <select name="collection" required>
+        <option value="">Choose Collection</option>
+        <option value="jets">Jets</option>
+        <option value="yachts">Yachts</option>
+        <option value="supercars">Supercars</option>
+      </select>
+      <br /><br />
+      <input
+        type="radio"
+        value="public"
+        name="visibility"
+        checked
+      />
+      Public
+      <input
+        type="radio"
+        value="private"
+        name="visibility"
+      />
+      Private<br /><br />
+      <input type="submit" value="Upload Video" />
+    </form>
+
+    <hr style="margin-top: 200px" />
+    <footer>&copy: Copyright</footer>
+  </body>
+</html>
